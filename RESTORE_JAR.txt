@@ -1,0 +1,19 @@
+RESTORE ADAM MONITOR JAR
+
+1. Download ADAM_Monitor.jar.base64.txt into your Downloads folder.
+2. Open PowerShell in the Downloads folder.
+3. Run this command:
+
+[IO.File]::WriteAllBytes("$PWD\ADAM_Monitor.jar", [Convert]::FromBase64String((Get-Content "$PWD\ADAM_Monitor.jar.base64.txt" -Raw)))
+
+4. Verify the file:
+
+Get-Item "$PWD\ADAM_Monitor.jar"
+Get-FileHash "$PWD\ADAM_Monitor.jar" -Algorithm SHA256
+
+Expected size: 16108 bytes
+Expected SHA256: 96FA6B41D561DA07927DC1F2525555ED2AE77B00C97CAB502EE98CBE2B3FFCA5
+
+5. Start it:
+
+java -jar "$PWD\ADAM_Monitor.jar"
