@@ -1,0 +1,9 @@
+# name,ip,port,unitId,startAddress,inputCount,signal names separated by |
+name,ip,port,unitId,startAddress,inputCount,signalNames
+ADAM-6052,10.33.114.96,502,1,0,8,DI 0|DI 1|DI 2|DI 3|DI 4|DI 5|DI 6|DI 7
+R404 RIGHT,10.33.114.102,502,1,0,8,DI 0|DI 1|DI 2|DI 3|DI 4|DI 5|DI 6|DI 7
+R403,10.33.114.103,502,1,0,8,DI 0|DI 1|DI 2|DI 3|DI 4|DI 5|DI 6|DI 7
+LB3,10.33.114.104,502,1,0,8,DI 0|DI 1|DI 2|DI 3|DI 4|DI 5|DI 6|DI 7
+FV13,10.33.114.105,502,1,0,8,At home|DI 1|DI 2|DI 3|DI 4|Running|DI 6|DI 7
+FV14,10.33.114.106,502,1,0,8,DI 0|DI 1|DI 2|DI 3|DI 4|DI 5|DI 6|DI 7
+FV17,10.33.114.115,502,1,0,8,DI 0|DI 1|DI 2|DI 3|DI 4|DI 5|DI 6|DI 7
